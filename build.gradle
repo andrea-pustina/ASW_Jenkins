@@ -27,11 +27,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-/*
+
 test {
     reports {
+    	testResultsDir = rootProject.testResultsDir
         junitXml.enabled = true
         //html.enabled = true
     }               
 }
-*/
+

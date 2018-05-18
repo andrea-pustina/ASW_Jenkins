@@ -27,10 +27,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+/*
 test {
     reports {
         junitXml.enabled = true
         //html.enabled = true
     }               
 }
-
+*/

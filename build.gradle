@@ -30,7 +30,7 @@ dependencies {
 
 test {
     reports {
-    	testResultsDir = rootProject.testResultsDir
+    	// testResultsDir = rootProject.testResultsDir
         junitXml.enabled = true
         //html.enabled = true
     }               

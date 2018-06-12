@@ -23,7 +23,7 @@ In order to test this project
 > - Jenkins will be at localhost:8080 (user:admin, pass:admin)
 > - Tomcat will be at localhost:8081 (user:admin, pass:admin)
 > - Login into Jenkins
-> - Launch the pipeline and it will build, test and deploy a github project (https://github.com/victormax94/asw_webapp) into the Tomcat container
+> - Launch the pipeline and it will build, test and deploy a [github project](https://github.com/victormax94/asw_webapp) into the Tomcat container
 > - Go to http://localhost:8081/helloworld/ and you will find the new application just deployed
 
 

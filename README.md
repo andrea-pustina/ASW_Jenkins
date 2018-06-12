@@ -4,12 +4,12 @@ In particular, we install and configure Jenkins in a Docker Container using only
 
 
 Using the configuration files it is possible to:
-> - create/configure Jenkins job (XML syntax)
-> - create/configure Jenkins pipelines (Groovie syntax)
-> - create a Jenkins user administrator
-> - install Jenkins plugins
-> - configure a Jenkins global tool (e.g. Gradle)
-> - create Jenkins credentials (e.g. for deployment)
+* create/configure Jenkins job (XML syntax)
+* create/configure Jenkins pipelines (Groovie syntax)
+* create a Jenkins user administrator
+* install Jenkins plugins
+* configure a Jenkins global tool (e.g. Gradle)
+* create Jenkins credentials (e.g. for deployment)
 
 Configure a Jenkins global tools is necessary, otherwise Jenkins will not recognize the tool (even if the tool is installed in the container)
 

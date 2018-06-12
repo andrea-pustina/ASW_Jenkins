@@ -1,4 +1,4 @@
-# ASW Jenkins
+# ASW Jenkins Docker
 The aim of this project is to test the functionality of Jenkins.
 In particular, we install and configure Jenkins in a Docker Container using only configuration files (infrastructure-as-code approach).
 

@@ -13,6 +13,10 @@ Using the configuration files it is possible to:
 
 Configure a Jenkins global tools is necessary, otherwise Jenkins will not recognize the tool (even if the tool is installed in the container)
 
+Prerequisites:
+* Docker
+* Docker-Compose
+
 In order to test this project 
 * download the project
 * open the terminal in the project folder
@@ -56,3 +60,10 @@ Backlog:
 * create pipeline "hello_world_pipeline" consisting of two stages
   * Build - "build_hello_world" job
   * Deploy - "deploy_hello_world" job
+  
+Documentation:
+* [Jenkins Official Documentation](https://jenkins.io/doc/)
+* [Docker Official Documentation](https://docs.docker.com/)
+* [Docker-Compose Official Documentation](https://docs.docker.com/compose/)
+* Jenkins groovy scripts interact with Hudson and it was difficult to find any documentation. In some cases we adapted some script that we found, otherwise we had to see the [Hudson source code](https://github.com/jenkinsci/jenkins/tree/master/core/src/main/java/hudson)
+
